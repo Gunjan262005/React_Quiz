@@ -1,0 +1,67 @@
+//MCQ 
+1. React is primarily used for:
+    a. Server - side rendering
+    b. Styling web pages
+    c. Building user interfaces
+    d. Managing databases
+    ans. c) Building user interfaces
+2. JSX allows you to:
+    a. Write JavaScript inside CSS files
+    b. Write HTML- like code inside JavaScript
+    c. Run SQL queries in React 
+    d. Replace Node. js
+    ans. b) Write HTML -like code inside JavaScript
+3.Which of the following is true about props?
+    a. Props can be modified inside the child component
+    b. Props allow data flow from child -> parent
+    c. Props are immutable and flow parent -> child 
+    d. Props are used to manage component state
+    ans. c) Props are immutable and flow parent -> child
+4. In React, event handlers are written in:
+    a. snake_case 
+    b. PascalCase
+   c. camelCase
+   d. kebab-case
+   ans. c) camelCase
+5. What does react use for efficient DOM updates?
+     a. Shadow DOM
+     b. Virtual DOM
+     c. Real DOM only
+     d. Web Assembly
+    ans. b) Virtual DOM
+
+//Short Answer
+6. Write a simple React functional component called HelloWorld that displays "Hello, React!".
+import React from 'react';
+function HelloWorld() 
+{
+  	return (
+	   		 <h1>Hello, React!</h1>
+  		    );
+}
+export default HelloWorld;
+7. What is the difference between a functional component and a class component?
+functional component is a plain JS function that return JSX.
+Class component is a JS(ES6) class that extends React.component.
+8. Why should React component names start with a capital letter?
+React component names start with a capital letter because React uses the capital letter to know it’s a custom component, not a normal HTML tag.
+9. Explain the difference between JSX and plain JavaScript in React.
+JSX looks like HTML but is used inside React to write UI easily.
+Plain JavaScript needs React.createElement() to create elements. 
+10. Create a button in React that, when clicked, logs "Button clicked!" to the console
+function ClickButton() 
+{
+     	return 
+        (
+    		<button onClick={() => console.log("Button clicked!")}>
+      				Click Me
+    		</button>
+  	);
+}
+
+//Extra Question
+1. Why do we use react?
+We use React to make websites fast and easy. It helps build parts of a website (like buttons or forms) that can change without reloading the whole page.
+2. What is vite? And how it is better than the traditional create-react-app command for creating react applications?
+Vite helps to make React apps.
+It is better than create-react-app because it is very fast and saves time while making and running the app.
